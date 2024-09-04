@@ -1,0 +1,30 @@
+•  ls : Liste les fichiers et répertoires dans le répertoire courant.
+•	Exemple : ls -l affiche des détails sur les fichiers et répertoires.
+•  cp : Copie des fichiers ou des répertoires d'un emplacement à un autre.
+•	Exemple : cp original.txt copie.txt copie original.txt en copie.txt.
+•  cd : Change le répertoire courant.
+•	Exemple : cd /home/utilisateur change vers le répertoire /home/utilisateur.
+•  pwd : Affiche le chemin complet du répertoire courant.
+•	Exemple : pwd pourrait retourner /home/utilisateur.
+•  cat : Affiche le contenu d'un fichier ou les concatène si plusieurs fichiers sont spécifiés.
+•	Exemple : cat fichier.txt affiche le contenu de fichier.txt.
+•  touch : Crée un nouveau fichier vide ou met à jour la date de modification d'un fichier existant.
+•	Exemple : touch nouveau.txt crée un fichier vide nommé nouveau.txt.
+•  mkdir : Crée un nouveau répertoire.
+•	Exemple : mkdir nouveau_dossier crée un répertoire nommé nouveau_dossier.
+•  mv : Déplace ou renomme des fichiers ou des répertoires.
+•	Exemple : mv ancien.txt nouveau.txt renomme ancien.txt en nouveau.txt.
+•  rm : Supprime des fichiers.
+•	Exemple : rm fichier.txt supprime le fichier fichier.txt.
+•  rmdir : Supprime des répertoires vides.
+•	Exemple : rmdir dossier_vide supprime le répertoire dossier_vide.
+
+Github 
+
+•  git init : Cette commande crée un nouveau dépôt Git localement. Elle initialise un nou-veau dépôt en ajoutant un sous-dossier .git qui contient tous les métadonnées nécessaires pour la gestion de versions.
+•  git clone : Utilisée pour copier un dépôt existant, souvent situé sur un serveur distant comme GitHub ou GitLab. Cette commande copie non seulement les fichiers du projet mais également toute son historique de versions, branches, et tags.
+•  git add : Prépare les fichiers modifiés pour un commit en les ajoutant à la zone de staging (index). Cela permet de choisir de manière sélective les modifications que l'on souhaite en-registrer dans le prochain commit.
+•  git commit : Enregistre un instantané des fichiers dans la zone de staging dans l'historique du dépôt, avec un message descriptif expliquant les modifications. C’est une étape cruciale pour maintenir un historique clair et utile.
+•  git status : Fournit des informations sur l'état du répertoire de travail et de la zone de sta-ging. Elle indique les fichiers qui ont été modifiés, ceux qui sont prêts à être commités, et ceux qui ne sont pas suivis par Git.
+•  git branch : Permet de lister, créer, ou supprimer des branches. Les branches sont utilisées pour développer des fonctionnalités isolément du reste du projet.
+•  git merge : Fusionne les changements d'une branche dans une autre, souvent pour intégrer les développements d’une branche
